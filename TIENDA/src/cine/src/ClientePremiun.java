@@ -15,4 +15,11 @@ public class ClientePremiun extends Persona implements Tiquete {
     public int getNumeroTarjeta() {
         return this.numeroTarjeta;
     }
+
+    @Override
+    public void mostrarDatos() {
+        System.out.println("Cedula = " + this.cedula
+        + " Nombre = " + this.nombre
+        + " Numero Tarjeta = " + this.numeroTarjeta);
+    }
 }

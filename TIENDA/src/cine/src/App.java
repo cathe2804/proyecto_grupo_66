@@ -16,7 +16,12 @@ public class App {
         clienteUno.setCedula(cedula);
         clienteUno.setNombre(nombre);
         clienteUno.setId(1);
+        clienteUno.generarSaludo();
+        clienteUno.generarSaludo("Buenos dias");
+        clienteUno.mostrarDatos();
         float costo = clienteUno.calcularCosto(8000);
+
+        // cliente dos
 
         System.out.println("Cédula: " + clienteUno.getCedula() + "\nNombre: "
                             + clienteUno.getNombre() + "\nID: " + clienteUno.getId()
@@ -26,6 +31,11 @@ public class App {
         clienteDos.setCedula("11657777");
         clienteDos.setNombre("Jose");
         clienteDos.setNumeroTarjeta(100);
+        clienteDos.generarSaludo();
+        clienteDos.generarSaludo("Hola qque tal");
+        clienteDos.mostrarDatos();
+
+        System.out.println();
         float costoDos = clienteDos.calcularCosto(8000);
                     
         System.out.println();
