@@ -11,11 +11,11 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public Strin getCedula() {
+    public String getCedula() {
         return this.cedula;
     }
 
-    public Strin getNombre() {
+    public String getNombre() {
         return this.nombre;
     }
 }
